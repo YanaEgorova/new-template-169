@@ -1,0 +1,139 @@
+.hero__wrapper-main {
+    /* background-color: var(--second-brand-color); */
+    background-image: url('../img/bg4.svg');
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.hero {
+    text-align: center;
+    padding: 15rem 0 5rem;
+}
+.hero .title {
+    margin-bottom: 2rem;
+}
+.hero .title span {
+    display: block;
+    color: var(--second-brand-color);
+}
+.hero .text {
+    margin: 0 auto 2rem;
+    max-width: 35rem;
+}
+.hero .btn {
+    margin-bottom: 3rem;
+}
+.hero__img {
+    display: none;
+}
+
+
+
+.contacts__wrapper {
+    background-image: url('../img/bg3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+.contacts {
+    padding: 15rem 0;
+    text-align: center;
+}
+.contacts .sub-title {
+    margin-bottom: 10rem;
+}
+.contacts__list {
+    max-width: 100rem;
+    margin: 0 auto;
+    position: relative;
+}
+.contacts__item:not(:last-child) {
+    margin-bottom: 4rem;
+}
+
+
+
+.policy__wrapper {
+    background-image: url('../img/bg2.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.policy {
+    padding: 15rem 0;
+    text-align: center;
+}
+.policy .sub-title {
+    margin-bottom: 8rem;
+}
+.policy__item:not(:last-child) {
+    margin-bottom: 8rem;
+}
+.policy__title {
+    font-size: 2rem;
+    font-family: var(--title-font);
+    margin-bottom: 1rem;
+}
+.policy .text {
+    margin-bottom: 3rem;
+}
+.policy__block {
+    max-width: 35rem;
+    margin: 0 auto;
+}
+.policy__list {
+}
+
+
+@media screen and (min-width: 1440px)  {
+    .hero {
+        text-align: left;
+        padding: 5rem 0 0;
+    }
+    .hero__img {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .hero .img {
+        display: none;
+    }
+    .hero .title {
+        margin-bottom: -15rem;
+        z-index: 2;
+        position: relative;
+        background-color: rgba(255, 255, 255, .6);
+        border: .1rem solid var(--sub-text-color);
+        width: fit-content;
+        padding: 2rem;
+        line-height: 1.3;
+    }
+    .hero__block {
+        position: relative;
+    }
+    .hero-box {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, .6);
+        border: .1rem solid var(--sub-text-color);
+        width: fit-content;
+        padding: 5rem;
+        text-align: center;
+    }
+    .hero .btn {
+        margin-bottom: 0;
+    }
+
+
+
+    .contacts {
+        padding: 20rem 0;
+    }
+    .contacts__item-link .text {
+        transition: all 0.3s ease-in-out;
+    }
+    .contacts__item-link .text:hover {
+        letter-spacing: .2rem;
+    }
+}
