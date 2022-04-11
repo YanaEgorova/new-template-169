@@ -8,6 +8,9 @@
     justify-content: space-between;
     z-index: 5;
 }
+body.open-menu {
+    overflow: hidden;
+}
 .header__flex {
     display: flex;
     align-items: center;
