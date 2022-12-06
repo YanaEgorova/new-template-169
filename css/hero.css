@@ -30,10 +30,16 @@
 
 
 .contacts__wrapper {
-    background-image: url('../img/bg3.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% auto;
+   position: relative;
+}
+.contacts__wrapper-svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    fill: var(--second-brand-color);
 }
 .contacts {
     padding: 15rem 0;
