@@ -86,9 +86,13 @@ body.open-menu {
 .open-menu .nav__list {
     opacity: 1;
 }
-
+.header-flex {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
 .cart__btn {
-    display: none;
+    display: flex;
     align-items: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -104,7 +108,7 @@ body.open-menu {
     font-family: var(--title-font);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .cart__btn:hover {
         transform: scale(1.1);
     }
