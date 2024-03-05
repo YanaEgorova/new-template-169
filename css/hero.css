@@ -100,9 +100,12 @@
         display: block;
         width: 70%;
         margin: 0 auto;
+     height: 70vh;
+     object-fit: cover;
     }
     .hero .img {
         display: none;
+
     }
     .hero .title {
         margin-bottom: -15rem;
